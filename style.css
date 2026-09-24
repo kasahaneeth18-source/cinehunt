@@ -25,9 +25,12 @@ section {
 }
 
 .movie {
+  display: inline-block;
+  width: 200px;
+  vertical-align: top;
   background: #222;
   padding: 15px;
-  margin: 15px 0;
+  margin: 10px;
   border-radius: 10px;
 }
 
