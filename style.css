@@ -24,14 +24,18 @@ section {
   padding: 20px;
 }
 
+.movies {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
 .movie {
-  display: inline-block;
-  width: 200px;
-  vertical-align: top;
   background: #222;
-  padding: 15px;
-  margin: 10px;
+  padding: 10px;
+  margin: 0;
   border-radius: 10px;
+  box-sizing: border-box;
 }
 
 button {
